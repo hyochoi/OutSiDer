@@ -2,4 +2,4 @@
 
 ## Overview
 
-OutSiDer - Outlier signals detector - is a method for identifying uncorrelated outlier signals that generated outliers in data. 
+We propose a new method for detecting uncorrelated outlier signals from high dimensional data. To develop a new notion of outliers, we define outlier subspace consistency that describes the limiting properties of outlier signals in the limit as the dimension increases. In particular, we investigate the conditions under which outliers can be asymptotically well captured by a low dimensional subspace produced by PCA. Based on these theoretical results, we introduce a new method for identifying individual outlier signals as well as distinguishing the subspace where only main signals are associated by un-mixing principal components. The proposed method uses a projection pursuit approach to find the most extreme one-dimensional direction where a data point is outlying while minimizing its residual outlyingness. The resulting outlier signals identified by the method can reveal the interpretable signals that are responsible for outliers, which helps to understand the origins of aberrations in data.

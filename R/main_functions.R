@@ -202,6 +202,7 @@ get_X2POfromX1maxout_v2 = function(X1dir,X,PO1maxout,cutoff=4,numSearch=100,qrsc
   return(c(mean.output,max.output))
 }
 
+
 #' @export
 get_outdirs = function(X,numSearch=300) {
   n = ncol(X); M = nrow(X);
